@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,400&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: hsla(186, 33%, 94%, 1);
+
+  background: linear-gradient(
+    90deg,
+    rgb(210, 226, 248) 0%,
+    rgb(173, 207, 253) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    rgb(223, 234, 247) 0%,
+    rgb(173, 207, 253) 100%
+  );
+}
+
+.userType {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.userType ul {
+  border-radius: 50px;
+  background-color: #15062e;
+}
+
+.userType a {
+  color: white;
+}
+
+.nav-tabs .nav-link.active {
+  border-radius: 50px;
+}
+.nav-tabs .nav-link {
+  border: none;
+}
+.container {
+  text-align: center;
+  padding: 30px;
+  margin-top: 20px;
+  background-color: rgb(201, 228, 250);
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.164) 0px 2px 8px 0px;
+  color: #15062e;
+}
+.container1 {
+  text-align: center;
+  padding: 30px;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.432);
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.164) 0px 2px 8px 0px;
+  color: #15062e;
+}
+form {
+  margin-top: 30px;
+}
+.form-control {
+  border-radius: 50px;
+  /* padding: 20px; */
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+::placeholder {
+  color: black;
+}
+.btnRegister {
+  padding: 5px;
+  width: 120px;
+  background-color: #15062e;
+  color: white;
+  border-radius: 30px;
+  margin-left: 70%;
+  margin-top: 40px;
+}
+
+.regComplete {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-top: 150px;
+}
+.tickIcon {
+  font-size: 40px;
+  color: green;
+}
+.btnRegComplete {
+  width: fit-content;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.logBtn {
+  color: white;
+}
+
+.navbar {
+  background-color: #15062e;
+  display: flex;
+  justify-content: space-between;
+}
+.greeting {
+  margin-top: 10px;
+  color: black;
+  text-align: center;
+}
+.allCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* margin-top: 50px; */
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  background-color: rgba(245, 245, 245, 0.438);
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px;
+  margin-top: 50px;
+}
+.iconBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: #15062e;
+  border-radius: 17px;
+  margin-bottom: 10px;
+  color: white;
+}
+.conta3 {
+  box-shadow: rgba(99, 99, 99, 0) 0px 2px 8px 0px;
+  height: 26rem;
+  margin-top: 100px;
+}
+
+.cont4 {
+  margin-top: 100px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+.confTitle h2 {
+  text-align: center;
+  color: rgb(38, 121, 245);
+}
+.confTitle {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.commonBtn {
+  padding: 5px;
+  width: 120px;
+  background-color: rgb(38, 121, 245);
+  color: white;
+  border-radius: 30px;
+  border: none;
+}
+.doneIcon {
+  font-size: 60px;
+  color: rgb(38, 121, 245);
+}
+
+.logoutIcon {
+  padding: 5px;
+}
+
+.headingContainer {
+  margin-top: 50px;
+  padding: 30px;
+  /* background-color: aliceblue; */
+  height: 70px;
+  width: 100%;
+  text-align: center;
+}
+
+.cancelBtn {
+  background-color: rgb(230, 105, 105);
+  padding: 5px;
+  font-size: 13px;
+}
+.alertContainerCover {
+  display: flex;
+  justify-content: center;
+}
+.alertContainer {
+  height: 36px;
+  width: fit-content;
+  padding: 3px 20px;
+  margin-top: 7px;
+  text-align: center;
+  background-color: rgb(129, 243, 129);
+  color: green;
+  border-radius: 6px;
+}
+.alertContainer p {
+  margin-top: 3px;
+}
+.homeIconDiv {
+  margin-top: 5px;
+  margin-left: 14px;
+}
+.homeIcon {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+.navTitle:hover,
+.homeIcon:hover,
+.logBtn:hover {
+  color: rgb(231, 247, 9);
+}
+
+.navClass {
+  display: flex;
+  flex-direction: row;
+}
+
+thead{
+  background-color: rgba(129, 205, 255, 0.699);
+}
